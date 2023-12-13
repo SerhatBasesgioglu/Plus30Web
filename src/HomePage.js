@@ -3,7 +3,7 @@ import lollobby from "./LolLobby.png";
 const HomePage = () => {
   return (
     <div>
-      <h1>PLUS30!</h1>
+      <h1>PLUS30 by AyDaKaR</h1>
 
       <p>
         This project aims to add some quality of life features for custom game
@@ -12,8 +12,18 @@ const HomePage = () => {
 
       <h5>Current Features</h5>
       <ul>
-        <li></li>
-        <li></li>
+        <li>Blacklisting blocked players</li>
+        <li>Creating lobby</li>
+        <li>Filtering/entering lobbies</li>
+        <li>Lobby Presets</li>
+      </ul>
+
+      <h5>Will Be Added</h5>
+      <ul>
+        <li>Auto Invite</li>
+        <li>Custom Stats</li>
+        <li>Discord Integration</li>
+        <li>Custom Ban/Pick System For Champion Selection</li>
       </ul>
 
       <img src={lollobby} />
