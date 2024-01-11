@@ -1,8 +1,7 @@
-import lollobby from "./LolLobby.png";
-
-const HomePage = () => {
+import image from "LolLobby.png";
+const Hero = () => {
   return (
-    <div>
+    <>
       <h1>PLUS30 by AyDaKaR</h1>
 
       <p>
@@ -26,7 +25,7 @@ const HomePage = () => {
         <li>Custom Ban/Pick System For Champion Selection</li>
       </ul>
 
-      <img src={lollobby} />
+      <img src={image} alt="Lobby builder screenshot" />
       <h3>Technical Details</h3>
       <h4>Backend</h4>
       <p>
@@ -40,8 +39,8 @@ const HomePage = () => {
         Frontend uses ReactJs, currently it can be reached through a browser
         tab, later I will make it a complete desktop app using ElectronJs.
       </p>
-    </div>
+    </>
   );
 };
 
-export default HomePage;
+export default Hero;
