@@ -1,4 +1,5 @@
-import image from "LolLobby.png";
+import image from "images/LolLobby.png";
+import "./Hero.css";
 const Hero = () => {
   return (
     <>
