@@ -1,24 +1,26 @@
-import logo from "images/logo.avif";
+import logo from "images/Plus30.svg";
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand">
-      <a class="navbar-brand" href="/">
-        <img class="logo" src={logo} alt="Logo"></img>
-      </a>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="/">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="banlist">
-            About
-          </a>
-        </li>
-      </ul>
+    <nav className="bg-gray-500 p-3 sticky top-0 z-50">
+      <div className="container flex justify-between">
+        <a className="text-white text-lg" href="/">
+          <img className="logo mx-3 my-3" src={logo} alt="logo"></img>
+        </a>
+        <ul className="flex space-x-5">
+          <li>
+            <a className="text-red-800" href="/">
+              Home
+            </a>
+          </li>
+          <li>
+            <a className="text-red-800" href="/">
+              About
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 };
