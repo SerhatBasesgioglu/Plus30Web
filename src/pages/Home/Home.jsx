@@ -3,10 +3,12 @@ import Navbar from "components/Navbar";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Navbar />
-      <Hero />
-    </div>
+      <div className="container mx-auto bg-blue-300">
+        <Hero />
+      </div>
+    </>
   );
 };
 
