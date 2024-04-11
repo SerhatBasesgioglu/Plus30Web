@@ -32,10 +32,7 @@ const Hero = () => {
         extra functionalities.
       </p>
       <p className="font-semibold pt-3">Frontend</p>
-      <p>
-        Frontend uses ReactJs, currently it can be reached through a browser tab, later I will make it a complete
-        desktop app using ElectronJs.
-      </p>
+      <p>Frontend uses ReactJs, it is wrapped with an electron instance.</p>
     </div>
   );
 };
