@@ -4,8 +4,7 @@ import Navbar from "components/Navbar";
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <div className="container mx-auto bg-blue-300">
+      <div className="p-3 mx-auto bg-zinc-500">
         <Hero />
       </div>
     </>
