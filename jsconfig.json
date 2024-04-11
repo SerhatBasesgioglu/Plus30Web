@@ -1,6 +1,12 @@
 {
   "compilerOptions": {
-    "baseUrl": "src"
-  },
-  "include": ["src", "postcss.config.js"]
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["./src/*"],
+      "components/*": ["./src/components/*"],
+      "pages/*": ["./src/pages/*"],
+      "services/*": ["./src/services/*"],
+      "images/*": ["./src/images/*"]
+    }
+  }
 }
